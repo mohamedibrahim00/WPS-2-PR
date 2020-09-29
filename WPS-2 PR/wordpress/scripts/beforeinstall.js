@@ -12,7 +12,7 @@ if (${settings.ls-addon:false}) {
     tag: "5.4.1-php-7.3.7",
     count: 1,
     flexibleCloudlets: ${settings.flexibleCloudlets:32},
-    fixedCloudlets: ${settings.fixedCloudlets:16},
+    fixedCloudlets: ${settings.fixedCloudlets:1},
     diskLimit: ${settings.diskLimit:25},
     nodeGroup: "cp",
     displayName: "AppServer",
